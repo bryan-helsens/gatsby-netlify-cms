@@ -15,3 +15,18 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
+
+
+
+  - name: training
+    label: Training
+    folder: training
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Publish Date, widget: datetime }
+      - { label: Description, name: description, widget: text }
+      - { label: Image, name: image, widget: image }
+      - { name: body, label: Body, widget: markdown }
