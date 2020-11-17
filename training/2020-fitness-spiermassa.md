@@ -12,7 +12,7 @@ Schema: Week 1
    * Sets: 3x10
    * Spiergroep: benen, billen
    * Duur : 4min
-2. Shoulder press
+2. **Shoulder press**
 
    * Sets: 3x10
    * Spiergroep: shouders
